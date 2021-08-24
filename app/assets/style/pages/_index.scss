@@ -1,0 +1,86 @@
+.main {
+  padding: 32px;
+}
+
+.header-info {
+  .title {
+    line-height: 33px;
+    margin-bottom: 0px;
+  }
+
+  .dropdown {
+    margin-left: 46px;
+    .btn {
+      font-weight: 500;
+    }
+  }
+}
+
+.subInfo {
+  font-size: 12px !important;
+  line-height: 24px !important;
+}
+
+// main section 左邊list
+.assignmentList {
+  min-width: 34.78%;
+  .assignmentList-item {
+    padding: 12px;
+    margin-bottom: -1px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $border-color !important;
+    }
+  }
+}
+
+.subInfo-title {
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 0px;
+}
+
+// main section 右邊區塊
+.assignmentContent {
+  min-width: 63.47%;
+
+  .assignmentContent-title {
+    padding: 12px 16px;
+    margin-bottom: -1px;
+
+    .more {
+      text-decoration: none;
+    }
+  }
+}
+.contentList {
+  margin-bottom: 0px !important;
+}
+
+.contentList-item {
+  position: relative;
+
+  p {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .subInfo-title {
+    line-height: 20px;
+  }
+
+  .content {
+    width: auto;
+    border-bottom: 1px solid $bg-light-green;
+  }
+}
+
+.listCircle {
+  padding-left: 12px;
+}
+
+.border-assignment {
+  border: 1px solid $border-color;
+}

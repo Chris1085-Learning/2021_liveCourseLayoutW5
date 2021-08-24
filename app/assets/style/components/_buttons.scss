@@ -1,0 +1,57 @@
+// 每個a按鈕更改樣式
+.btn-general {
+  text-decoration: none;
+  color: black;
+
+  &:hover {
+    color: black;
+    text-decoration: none;
+  }
+}
+
+// hoework按鈕
+.btn-lightGreen {
+  width: 180px;
+  height: 40px;
+  background-color: $bg-light-green !important;
+  border: 1px solid $border-color !important;
+  font-size: 16px;
+  line-height: 24px;
+
+  &:hover {
+    background-color: $border-color !important;
+  }
+}
+
+// header course按鈕
+.btn-course {
+  box-shadow: none !important;
+  padding-left: 0px !important;
+  padding-bottom: 0px !important;
+
+  &:hover {
+    color: $text-green !important;
+  }
+}
+
+// Mark as Read按鈕
+.btn-outline-check {
+  color: $text-green !important;
+  border: 1px solid $text-green !important;
+
+  &:hover {
+    color: white !important;
+    background-color: $text-green;
+  }
+}
+
+//Reply按鈕
+.btn-check {
+  background-color: $text-green !important;
+  color: white !important;
+  &:hover {
+    color: $text-green !important;
+    background-color: white !important;
+    border: 1px solid $text-green !important;
+  }
+}

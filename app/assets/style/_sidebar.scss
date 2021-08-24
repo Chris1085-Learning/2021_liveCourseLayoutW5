@@ -1,0 +1,68 @@
+/* sidebar block */
+.sidebar {
+  flex: 0 0 23.125%;
+  height: 100vh;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  .logo {
+    padding-left: 32px;
+  }
+
+  /* img replaced text */
+  .logo a {
+    background-image: url('../images/logo-ANSWER.svg');
+    background-repeat: no-repeat;
+    display: block;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+    max-height: 40px;
+  }
+}
+
+/* menu list */
+.list-item-link {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  color: black;
+  padding: 4px 32px;
+
+  &:hover {
+    text-decoration: none;
+    color: $text-green;
+    position: relative;
+    background-color: white;
+  }
+
+  &:hover::before {
+    position: absolute;
+    content: '';
+    top: 0px;
+    left: 0px;
+    height: 32px;
+    border-left: 4px solid $text-green;
+  }
+}
+
+.user {
+  padding-left: 32px;
+
+  .userName {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .userEmail {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
+.userImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}

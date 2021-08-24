@@ -1,0 +1,39 @@
+.table {
+  width: 100%;
+  .icon-sort {
+    font-size: 18px;
+    color: $text-green;
+  }
+
+  // 調整table第一列的style
+  thead th {
+    font-weight: bold;
+    border-top: 0px;
+    border-bottom: 1px solid black !important;
+    padding-bottom: 4.5px;
+  }
+
+  tbody td,
+  th {
+    padding-left: 0px !important;
+  }
+
+  // 調整table每一列的style
+  tbody td {
+    border-bottom: 1px solid #cdddcd;
+    padding-top: 19px;
+    padding-bottom: 17px;
+  }
+
+  // 調整table最後一行下右靠齊的style
+  tbody td:last-child {
+    text-align: right;
+    .btn-normal {
+      padding-left: 25px;
+    }
+  }
+}
+
+.table-hover tbody tr:hover {
+  background-color: $bg-light-green !important;
+}
